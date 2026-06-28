@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Reservierung | Aurum Berlin</title>
+  <meta name="description" content="Reservieren Sie Ihren Tisch im Aurum Berlin – Fine Dining, Wine Pairing, Private Dining und besondere Anlässe in Berlin Mitte." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#050302" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Aurum Berlin",
+  "description": "Modern Fine Dining in Berlin Mitte mit saisonaler Küche, Signature-Gerichten, Wine Pairing und Private Dining.",
+  "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Friedrichstraße 88",
+    "postalCode": "10117",
+    "addressLocality": "Berlin",
+    "addressCountry": "DE"
+  },
+  "telephone": "+49 30 8147 9200",
+  "email": "kontakt@aurum-berlin.de",
+  "servesCuisine": [
+    "Modern European",
+    "Fine Dining",
+    "Seasonal"
+  ],
+  "priceRange": "€€€",
+  "acceptsReservations": true,
+  "openingHours": [
+    "Tu-Su 17:00-23:00"
+  ],
+  "sameAs": [
+    "https://www.instagram.com/",
+    "https://www.facebook.com/"
+  ]
+}
+  </script>
+</head>
+
+<body class="phase-three-reservation">
+  <div class="business-page-transition" id="businessPageTransition"></div>
+  <div class="business-scroll-progress" id="businessScrollProgress"></div>
+  <div class="business-cursor-dot" id="businessCursorDot"></div>
+
+  <div class="luxury-ambient-layer"></div>
+  <div class="luxury-light luxury-light-one"></div>
+  <div class="luxury-light luxury-light-two"></div>
+  <div class="wow-orb-layer"></div>
+  <div class="wow-orb wow-orb-one"></div>
+  <div class="wow-orb wow-orb-two"></div>
+  <div class="wow-spotlight" id="wowSpotlight"></div>
+  <div class="noise"></div>
+
+  <header class="phase-header" id="siteHeader">
+    <a href="index.html" class="brand">
+      <span class="brand-icon">A</span>
+      <span>
+        <strong>Aurum Berlin</strong>
+        <small>Modern Fine Dining</small>
+      </span>
+    </a>
+
+    <nav class="phase-nav" id="mainNav">
+      <a href="index.html">Start</a>
+      <a href="menu.html">Speisekarte</a>
+      <a href="events.html">Events</a>
+      <a href="reservation.html">Reservierung</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+
+    <a href="#reservationFlow" class="header-button magnetic">Tisch reservieren</a>
+
+    <button class="phase-menu-toggle" id="menuToggle" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="reservation-hero-phase">
+      <div class="reservation-hero-bg"></div>
+      <div class="phase-hero-overlay"></div>
+      <div class="phase-hero-beam"></div>
+
+      <div class="container reservation-hero-content reveal">
+        <p class="overline">Reservierung</p>
+        <h1>Ihr Abend im Aurum Berlin.</h1>
+        <p>Reservieren Sie Ihren Tisch für Fine Dining, Wine Pairing, Private Dining oder besondere Anlässe.</p>
+
+        <div class="phase-hero-actions">
+          <a href="#reservationFlow" class="btn btn-gold magnetic">Reservierung starten</a>
+          <a href="menu.html" class="btn btn-ghost magnetic">Speisekarte ansehen</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="phase-section reservation-flow-section" id="reservationFlow">
+      <div class="container reservation-flow-grid">
+        <aside class="reservation-sidebar-phase reveal shine-card">
+          <p class="overline">Schnellauswahl</p>
+          <h3>Wählen Sie Ihren Anlass.</h3>
+
+          <button class="reservation-preset-phase active" data-guests="2" data-time="19:00" data-occasion="Dinner zu zweit" data-area="Innenbereich">
+            <span>🍽️ Dinner zu zweit</span>
+            <strong>2 Personen · 19:00</strong>
+          </button>
+
+          <button class="reservation-preset-phase" data-guests="4" data-time="20:00" data-occasion="Geburtstag" data-area="Innenbereich">
+            <span>🎂 Geburtstag</span>
+            <strong>4 Personen · 20:00</strong>
+          </button>
+
+          <button class="reservation-preset-phase" data-guests="6" data-time="18:30" data-occasion="Business Dinner" data-area="Ruhiger Bereich">
+            <span>💼 Business Dinner</span>
+            <strong>6 Personen · 18:30</strong>
+          </button>
+
+          <button class="reservation-preset-phase" data-guests="12" data-time="18:00" data-occasion="Private Dining" data-area="Private Dining">
+            <span>🥂 Private Dining</span>
+            <strong>12 Personen · Anfrage</strong>
+          </button>
+
+          <div class="reservation-trust-phase">
+            <strong>Gut zu wissen</strong>
+            <p>Für größere Gruppen oder Private Dining melden wir uns persönlich zurück, um Details abzustimmen.</p>
+          </div>
+        </aside>
+
+        <form class="reservation-form-phase reveal shine-card" id="aurumReservationForm" action="https://formspree.io/f/DEIN-FORMSPREE-LINK" method="POST">
+          <div class="reservation-progress-phase">
+            <div class="active"><strong>1</strong><span>Abend</span></div>
+            <div><strong>2</strong><span>Kontakt</span></div>
+            <div><strong>3</strong><span>Bestätigung</span></div>
+          </div>
+
+          <div class="reservation-step-label">
+            <p class="overline">Schritt 1</p>
+            <h2>Details Ihres Besuchs</h2>
+          </div>
+
+          <div class="form-row">
+            <label>
+              <input type="text" name="name" placeholder=" " required>
+              <span>Name</span>
+            </label>
+            <label>
+              <input type="tel" name="telefon" placeholder=" " required>
+              <span>Telefon</span>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              <input type="email" name="email" placeholder=" " required>
+              <span>E-Mail</span>
+            </label>
+            <label>
+              <select name="anlass" id="reservationOccasionPhase" required>
+                <option value="">Anlass wählen</option>
+                <option>Dinner zu zweit</option>
+                <option>Geburtstag</option>
+                <option>Jahrestag</option>
+                <option>Business Dinner</option>
+                <option>Private Dining</option>
+                <option>Wine Pairing</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              <input type="date" name="datum" id="reservationDatePhase" required>
+              <span>Datum</span>
+            </label>
+            <label>
+              <select name="uhrzeit" id="reservationTimePhase" required>
+                <option value="">Uhrzeit wählen</option>
+                <option>17:30</option>
+                <option>18:00</option>
+                <option>18:30</option>
+                <option>19:00</option>
+                <option>19:30</option>
+                <option>20:00</option>
+                <option>20:30</option>
+                <option>21:00</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="guest-selector-phase">
+            <p class="guest-label-phase">Personenanzahl</p>
+            <div class="guest-controls-phase">
+              <button type="button" id="guestMinusPhase">−</button>
+              <input type="number" name="personen" id="guestCountPhase" min="1" max="60" value="2" required>
+              <button type="button" id="guestPlusPhase">+</button>
+            </div>
+            <p class="reservation-note-phase" id="reservationNotePhase">Normale Tischreservierung</p>
+          </div>
+
+          <div class="reservation-options-phase">
+            <p class="guest-label-phase">Bereich</p>
+            <div class="option-pill-grid">
+              <label><input type="radio" name="bereich" value="Innenbereich" checked><span>Innenbereich</span></label>
+              <label><input type="radio" name="bereich" value="Fensterplatz"><span>Fensterplatz</span></label>
+              <label><input type="radio" name="bereich" value="Ruhiger Bereich"><span>Ruhig</span></label>
+              <label><input type="radio" name="bereich" value="Private Dining"><span>Private Dining</span></label>
+            </div>
+          </div>
+
+          <div class="reservation-options-phase">
+            <p class="guest-label-phase">Zusatzwünsche</p>
+            <div class="option-pill-grid">
+              <label><input type="checkbox" name="extras" value="Wine Pairing"><span>Wine Pairing</span></label>
+              <label><input type="checkbox" name="extras" value="Chef Menü"><span>Chef Menü</span></label>
+              <label><input type="checkbox" name="extras" value="Vegetarisch"><span>Vegetarisch</span></label>
+              <label><input type="checkbox" name="extras" value="Barrierefrei"><span>Barrierefrei</span></label>
+            </div>
+          </div>
+
+          <label class="full-label">
+            <textarea name="nachricht" placeholder=" "></textarea>
+            <span>Besondere Wünsche</span>
+          </label>
+
+          <div class="reservation-summary-phase" id="reservationSummaryPhase">
+            <strong>Ihre Reservierung</strong>
+            <span>2 Personen · Uhrzeit noch wählen · Anlass noch wählen</span>
+          </div>
+
+          <button class="btn btn-gold magnetic" type="submit">Reservierungsanfrage senden</button>
+          <p class="reservation-form-message" id="reservationFormMessage">Wir melden uns zur Bestätigung persönlich bei Ihnen.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="phase-footer">
+    <div class="container phase-footer-grid">
+      <div>
+        <strong>Aurum Berlin</strong>
+        <p>Saisonale Küche. Zeitlose Eleganz.</p>
+      </div>
+
+      <div>
+        <h4>Navigation</h4>
+        <a href="index.html">Start</a>
+        <a href="menu.html">Speisekarte</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+
+      <div>
+        <h4>Kontakt</h4>
+        <a href="tel:+493081479200">030 8147 9200</a>
+        <a href="mailto:kontakt@aurum-berlin.de">kontakt@aurum-berlin.de</a>
+        <a href="contact.html">Friedrichstraße 88, Berlin</a>
+      </div>
+
+      <div>
+        <h4>Rechtliches</h4>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
