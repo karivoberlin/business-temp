@@ -1,16 +1,12 @@
-# Gaststätte Albrechtshöhe Website
+# Restaurant Starter V7 – Warme Restaurant-Farben
 
-Fertige Version der Restaurant-Vorlage für:
-Gaststätte Albrechtshöhe
-Koseler Weg 59, 12099 Berlin
+Geändert:
+- Starter-Design behält die gleiche Struktur
+- wärmere Restaurant-Farbwelt
+- fast Schwarz, Creme, Gold, Holzbraun, dezentes Bordeaux
+- keine neuen Funktionen
+- keine Unterseiten
+- nur optischer Restaurant-Farblook
 
-Enthalten:
-- index.html
-- style.css
-- script.js
-
-Wichtig:
-Der Reservierungsbereich ist vorbereitet, aber der Formspree-Link in index.html muss noch ersetzt werden:
-https://formspree.io/f/DEIN-FORMSPREE-LINK
-
-Danach kann die ZIP direkt bei GitHub/Vercel hochgeladen werden.
+Hochladen:
+index.html, style.css und script.js ersetzen.

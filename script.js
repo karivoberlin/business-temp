@@ -68,29 +68,29 @@ document.querySelectorAll(".glass-hover").forEach((card) => {
 });
 
 const menuData = {
-  vorspeisen: [
-    { icon: "🥖", name: "Bruschetta", desc: "Geröstetes Brot mit Tomaten, Knoblauch und Kräutern.", price: "ab 6,90 €" },
-    { icon: "🥗", name: "Gemischter Salat", desc: "Frische Salate mit Hausdressing und knackigem Gemüse.", price: "ab 7,90 €" },
-    { icon: "🍟", name: "Pommes & Snacks", desc: "Kleine herzhafte Klassiker für zwischendurch.", price: "ab 4,90 €" },
-    { icon: "🍲", name: "Suppe des Tages", desc: "Wärmend, bodenständig und passend zur Saison.", price: "ab 6,50 €" }
+  pizza: [
+    { icon: "🍕", name: "Pizza Salami", desc: "Knusprig, herzhaft und ein Klassiker für den Biergarten.", price: "beliebt" },
+    { icon: "🍕", name: "Pizza Margherita", desc: "Einfach, warm und genau richtig für den schnellen Hunger.", price: "klassisch" },
+    { icon: "🧄", name: "Pizza mit Knoblauch", desc: "Würzig, unkompliziert und ideal zum Teilen.", price: "zum Mitnehmen" },
+    { icon: "🌶️", name: "Pizza Spezial", desc: "Deftig belegt, passend zu einem kühlen Getränk.", price: "Hausstil" }
   ],
-  hauptgerichte: [
-    { icon: "🍕", name: "Pizza Salami", desc: "Knusprige Pizza mit Tomatensauce, Käse und Salami.", price: "ab 10,90 €" },
-    { icon: "🍝", name: "Pasta Pomodoro", desc: "Pasta mit fruchtiger Tomatensauce und Kräutern.", price: "ab 9,90 €" },
-    { icon: "🌭", name: "Currywurst", desc: "Berliner Klassiker mit würziger Sauce und Beilage.", price: "ab 8,90 €" },
-    { icon: "🍽️", name: "Hausmannskost", desc: "Herzhafte Gerichte, einfach, ehrlich und sättigend.", price: "ab 11,90 €" }
+  pasta: [
+    { icon: "🍝", name: "Pasta Pomodoro", desc: "Tomatensauce, Kräuter und einfache italienische Küche.", price: "frisch" },
+    { icon: "🍝", name: "Pasta nach Art des Hauses", desc: "Sättigend, unkompliziert und bodenständig serviert.", price: "Tagesgericht" },
+    { icon: "🧀", name: "Pasta mit Käse", desc: "Cremig, warm und besonders beliebt bei Familien.", price: "beliebt" },
+    { icon: "🥗", name: "Kleiner Salat dazu", desc: "Frisch als Beilage oder leichter Start vor dem Hauptgericht.", price: "leicht" }
   ],
-  desserts: [
-    { icon: "☕", name: "Eiskaffee", desc: "Kühl, cremig und perfekt für den Sommer.", price: "ab 4,90 €" },
-    { icon: "🍰", name: "Kuchen nach Angebot", desc: "Süßer Abschluss oder Begleiter zum Kaffee.", price: "ab 3,90 €" },
-    { icon: "🍨", name: "Eisvariation", desc: "Leicht, klassisch und beliebt bei Groß und Klein.", price: "ab 4,50 €" },
-    { icon: "🥞", name: "Berliner Dessert", desc: "Süße Empfehlung je nach Tagesangebot.", price: "ab 4,90 €" }
+  klassiker: [
+    { icon: "🌭", name: "Currywurst", desc: "Berliner Klassiker für den unkomplizierten Hunger.", price: "Hausmannskost" },
+    { icon: "🥘", name: "Kleine warme Gerichte", desc: "Einfach, fair und passend zur Gartenkneipe.", price: "wechselnd" },
+    { icon: "🥖", name: "Bruschetta", desc: "Geröstetes Brot mit Tomaten und Kräutern.", price: "zum Teilen" },
+    { icon: "🍟", name: "Beilagen & Snacks", desc: "Für den Tisch, den Feierabend oder den kleinen Hunger.", price: "locker" }
   ],
   getraenke: [
-    { icon: "🍺", name: "Frisch gezapftes Bier", desc: "Kalt, frisch und passend zur gemütlichen Runde.", price: "ab 3,90 €" },
-    { icon: "🍹", name: "Aperol Spritz", desc: "Spritziger Aperitif für Terrasse und Feierabend.", price: "ab 6,90 €" },
-    { icon: "☕", name: "Kaffee & Espresso", desc: "Klassisch heiß serviert.", price: "ab 2,50 €" },
-    { icon: "🥤", name: "Softdrinks", desc: "Cola, Wasser und weitere alkoholfreie Getränke.", price: "ab 2,90 €" }
+    { icon: "🍺", name: "Bier vom Fass", desc: "Kalt gezapft und perfekt für draußen.", price: "Biergarten" },
+    { icon: "🍹", name: "Aperol Spritz", desc: "Sommerlich, frisch und beliebt auf der Terrasse.", price: "Sommer" },
+    { icon: "☕", name: "Kaffee", desc: "Für den Nachmittag oder nach dem Essen.", price: "klassisch" },
+    { icon: "🥤", name: "Softdrinks", desc: "Erfrischungen für Familien, Gruppen und spontane Gäste.", price: "gekühlt" }
   ]
 };
 
