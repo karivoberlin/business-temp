@@ -68,29 +68,29 @@ document.querySelectorAll(".glass-hover").forEach((card) => {
 });
 
 const menuData = {
-  pizza: [
-    { icon: "🍕", name: "Pizza Salami", desc: "Knusprig, herzhaft und ein Klassiker für den Biergarten.", price: "beliebt" },
-    { icon: "🍕", name: "Pizza Margherita", desc: "Einfach, warm und genau richtig für den schnellen Hunger.", price: "klassisch" },
-    { icon: "🧄", name: "Pizza mit Knoblauch", desc: "Würzig, unkompliziert und ideal zum Teilen.", price: "zum Mitnehmen" },
-    { icon: "🌶️", name: "Pizza Spezial", desc: "Deftig belegt, passend zu einem kühlen Getränk.", price: "Hausstil" }
+  vorspeisen: [
+    { icon: "🥖", name: "Bruschetta Classica", desc: "Geröstetes Brot mit Tomaten, Basilikum und Olivenöl.", price: "8,90 €" },
+    { icon: "🥗", name: "Mediterraner Salat", desc: "Frische Blattsalate, Gemüse, Kräuter und Hausdressing.", price: "9,90 €" },
+    { icon: "🧀", name: "Antipasti Teller", desc: "Auswahl aus Gemüse, Käse, Oliven und feinen Kleinigkeiten.", price: "13,90 €" },
+    { icon: "🍲", name: "Suppe des Tages", desc: "Saisonal gekocht und mit frischen Kräutern serviert.", price: "7,50 €" }
   ],
-  pasta: [
-    { icon: "🍝", name: "Pasta Pomodoro", desc: "Tomatensauce, Kräuter und einfache italienische Küche.", price: "frisch" },
-    { icon: "🍝", name: "Pasta nach Art des Hauses", desc: "Sättigend, unkompliziert und bodenständig serviert.", price: "Tagesgericht" },
-    { icon: "🧀", name: "Pasta mit Käse", desc: "Cremig, warm und besonders beliebt bei Familien.", price: "beliebt" },
-    { icon: "🥗", name: "Kleiner Salat dazu", desc: "Frisch als Beilage oder leichter Start vor dem Hauptgericht.", price: "leicht" }
+  hauptgerichte: [
+    { icon: "🍝", name: "Hausgemachte Pasta", desc: "Frische Pasta mit cremiger Sauce, Kräutern und Parmesan.", price: "14,90 €" },
+    { icon: "🥩", name: "Rinderfilet", desc: "Zart gebraten mit Gemüse, Kartoffeln und feiner Sauce.", price: "26,90 €" },
+    { icon: "🐟", name: "Gegrillter Lachs", desc: "Mit Zitronenbutter, Marktgemüse und Beilage.", price: "21,90 €" },
+    { icon: "🍛", name: "Saisonales Risotto", desc: "Cremig gekocht mit frischen Zutaten der Saison.", price: "16,90 €" }
   ],
-  klassiker: [
-    { icon: "🌭", name: "Currywurst", desc: "Berliner Klassiker für den unkomplizierten Hunger.", price: "Hausmannskost" },
-    { icon: "🥘", name: "Kleine warme Gerichte", desc: "Einfach, fair und passend zur Gartenkneipe.", price: "wechselnd" },
-    { icon: "🥖", name: "Bruschetta", desc: "Geröstetes Brot mit Tomaten und Kräutern.", price: "zum Teilen" },
-    { icon: "🍟", name: "Beilagen & Snacks", desc: "Für den Tisch, den Feierabend oder den kleinen Hunger.", price: "locker" }
+  desserts: [
+    { icon: "🍰", name: "Tiramisu", desc: "Klassisch, cremig und hausgemacht.", price: "6,90 €" },
+    { icon: "🍫", name: "Schokoladenküchlein", desc: "Warm serviert mit weichem Kern und Vanilleeis.", price: "8,50 €" },
+    { icon: "🍓", name: "Panna Cotta", desc: "Mit Beerenragout und frischer Minze.", price: "6,90 €" },
+    { icon: "🍨", name: "Sorbet Variation", desc: "Leicht, fruchtig und perfekt zum Abschluss.", price: "6,50 €" }
   ],
   getraenke: [
-    { icon: "🍺", name: "Bier vom Fass", desc: "Kalt gezapft und perfekt für draußen.", price: "Biergarten" },
-    { icon: "🍹", name: "Aperol Spritz", desc: "Sommerlich, frisch und beliebt auf der Terrasse.", price: "Sommer" },
-    { icon: "☕", name: "Kaffee", desc: "Für den Nachmittag oder nach dem Essen.", price: "klassisch" },
-    { icon: "🥤", name: "Softdrinks", desc: "Erfrischungen für Familien, Gruppen und spontane Gäste.", price: "gekühlt" }
+    { icon: "🍷", name: "Hauswein", desc: "Rot oder Weiß, sorgfältig ausgewählt.", price: "5,90 €" },
+    { icon: "🍹", name: "Aperitif", desc: "Spritzig, frisch und ideal zum Start.", price: "7,90 €" },
+    { icon: "☕", name: "Espresso", desc: "Kräftig, aromatisch und frisch zubereitet.", price: "2,90 €" },
+    { icon: "🍋", name: "Hauslimonade", desc: "Erfrischend mit Zitrus, Minze und Eis.", price: "4,90 €" }
   ]
 };
 

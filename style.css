@@ -971,27 +971,3 @@ textarea{
 .map-wrap iframe{
   filter: grayscale(.75) sepia(.22) brightness(.82);
 }
-
-/* Albrechtshöhe – rustikale Premium-Demo */
-:root{
-  --black:#080604; --dark:#171008; --anthracite:#24180e;
-  --gold:#c88b3a; --gold-light:#ffd38a; --white:#fff8ea; --muted:#decdb4;
-  --line:rgba(255,226,174,.18); --green:#354a25; --brick:#7d2e1f;
-}
-.loader-logo,.brand-mark{border-radius:18px;background:linear-gradient(135deg,#8f4a25,var(--gold-light));}
-.hero{
-  background:
-    linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.82)),
-    url("https://images.unsplash.com/photo-1504718855392-c0f33b372e72?auto=format&fit=crop&w=1900&q=80") center/cover;
-}
-.hero:after{
-  content:""; position:absolute; inset:0; pointer-events:none; opacity:.16;
-  background-image:linear-gradient(45deg,rgba(255,255,255,.08) 25%,transparent 25%),linear-gradient(-45deg,rgba(255,255,255,.06) 25%,transparent 25%);
-  background-size:18px 18px;
-}
-.hero-overlay{background:radial-gradient(circle at 70% 25%,rgba(255,178,82,.22),transparent 30%),linear-gradient(90deg,rgba(5,4,3,.78),rgba(20,33,15,.24),rgba(5,4,3,.76));}
-h1{max-width:880px;text-shadow:0 12px 46px rgba(0,0,0,.55)}
-.hero-copy{font-size:19px;color:#f1dfc2;max-width:720px}.brand-text{white-space:nowrap}.main-nav{gap:22px}.header-cta{background:linear-gradient(135deg,#d79b45,#ffe0a2)}
-.about-image{background:linear-gradient(rgba(0,0,0,.08),rgba(0,0,0,.48)),url("https://images.unsplash.com/photo-1493847242172-d46053a1f671?auto=format&fit=crop&w=1400&q=80") center/cover;align-items:end;padding:32px;text-align:left;justify-content:start;color:#fff4d8;font-family:"Cormorant Garamond",serif;font-size:42px;text-shadow:0 10px 34px #000;}
-.floating-note{background:linear-gradient(135deg,#385326,#ffd18a);}.floating-note strong{font-size:34px}.floating-note span{padding:0 16px}.story-strip{padding:34px 0;border-block:1px solid var(--line);background:linear-gradient(90deg,rgba(53,74,37,.28),rgba(125,46,31,.18));}.story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.story-grid div{padding:22px;border-radius:22px;background:rgba(255,248,234,.07);border:1px solid var(--line)}.story-grid span{color:var(--gold-light);font-weight:900;letter-spacing:.18em}.story-grid strong{display:block;margin:8px 0;font-size:20px}.story-grid p{font-size:14px}.menu-note{background:linear-gradient(145deg,rgba(53,74,37,.32),rgba(125,46,31,.18));}.menu-price{text-transform:uppercase;font-size:12px;letter-spacing:.12em}.contact-list a{color:var(--gold-light);font-weight:800}.map-wrap iframe{filter:grayscale(.3) sepia(.18) brightness(.9)}
-@media(max-width:760px){.story-grid{grid-template-columns:1fr}.brand-text{font-size:18px}h1{font-size:clamp(48px,15vw,72px)}}
